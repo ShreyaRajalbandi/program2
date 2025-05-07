@@ -7,4 +7,8 @@ public class StudentCourse{
             System.out.println(courses[i] + ": " + marks[i]);
         }
     }
+    public static void main(String []args){
+        StudentCourse sc=new StudentCourse();
+        sc.displayCourses();
+    }
 }
