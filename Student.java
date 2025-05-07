@@ -15,4 +15,7 @@ public class Student {
         int age = Period.between(dob, LocalDate.now()).getYears();
         System.out.println("Age: " + age);
     }
+    public static void main(String[]args){
+        Student s= new Student("Ariha","22-07-2005");
+        s.displayInfo();
 }
